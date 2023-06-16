@@ -1,6 +1,21 @@
-# Meeting Scheduler Application
+# Problem Statement: Meeting Scheduler
 
-The Meeting Scheduler Application is a Java-based program that demonstrates the scheduling and management of meetings using the RoomController and SchedulerController classes.
+You are tasked with developing a meeting scheduler system that efficiently manages the allocation and freeing of rooms based on meeting availability. The system should meet the following requirements:
+
+    Room Management:
+    a. The system should allow the addition of new meeting rooms, each identified by a unique name.
+    b. Each meeting room has a fixed capacity, typically set to accommodate 20 participants.
+    c. The system should maintain a record of both free rooms and occupied rooms, keeping track of their current availability status.
+
+    Meeting Scheduling:
+    a. The system should provide a scheduling mechanism that allocates a suitable meeting room when requested.
+    b. If no suitable rooms are available for scheduling a meeting, the scheduler should generate an appropriate notification or exception indicating the unavailability of rooms.
+
+    Meeting Completion:
+    a. The system should regularly monitor scheduled meetings and identify those that have already concluded.
+    b. A meeting should be considered completed if its scheduled end time is before the current time.
+    c. Once a meeting is completed, the corresponding room should be marked as available, and the room's status should be updated accordingly.
+    
 
 ## Getting Started
 
