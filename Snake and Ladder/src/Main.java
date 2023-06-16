@@ -1,6 +1,13 @@
+/**
+ * The Main class is the entry point of the game application.
+ */
 public class Main {
 
-
+    /**
+     * The main method initializes and starts the game.
+     *
+     * @param args command-line arguments (not used)
+     */
     public static void main(String[] args) {
         System.out.println("Setting up game");
 
