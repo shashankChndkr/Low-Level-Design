@@ -97,11 +97,12 @@ public class OrderManager {
         if (!activeOrders.containsKey(stockSymbol) || !activeOrders.get(stockSymbol).contains(orderId)) {
             throw new Exception("Order is not an active order for the specified stock symbol");
         }
-
-        Order order = uuidOrderMap.get(orderId);
-
-        order.setPrice(price);
-        order.setQuantity(quantity);
+        Order order = null ;
+        synchronized (uuidOrderMap) {
+            order = uuidOrderMap.get(orderId);
+            order.setPrice(price);
+            order.setQuantity(quantity);
+        }
         return order;
     }
 
@@ -112,8 +113,11 @@ public class OrderManager {
      * @return the cancelled Order object
      */
     public Order cancelOrder(UUID orderId) {
-        Order order = uuidOrderMap.get(orderId);
-        order.setOrderStatus(OrderStatus.CANCELLED);
+        Order order = null ;
+        synchronized (uuidOrderMap) {
+            uuidOrderMap.get(orderId);
+            order.setOrderStatus(OrderStatus.CANCELLED);
+        }
         return order;
     }
 
