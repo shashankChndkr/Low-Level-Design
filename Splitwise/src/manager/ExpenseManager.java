@@ -1,6 +1,5 @@
 package manager;
 
-import constants.SplitType;
 import model.Balance;
 import model.Expense;
 import model.User;

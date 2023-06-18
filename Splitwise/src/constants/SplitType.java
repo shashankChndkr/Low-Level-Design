@@ -1,6 +1,5 @@
 /**
-
- This enum represents the split types used in the application.
+ * This enum represents the split types used in the application.
  */
 package constants;
 
