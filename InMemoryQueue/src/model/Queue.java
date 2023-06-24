@@ -8,7 +8,7 @@ import java.util.List;
 
 public class Queue {
 
-    private int capacity;
+    private final int capacity;
     private List<Message> queue;
 
     /**
