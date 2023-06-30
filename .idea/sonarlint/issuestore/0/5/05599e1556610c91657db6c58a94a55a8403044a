@@ -1,0 +1,7 @@
+
+[	java:S112b"FDefine and throw a dedicated exception instead of using a generic one.(Šë°
+Y
+java:S2259w"CA "NullPointerException" could be thrown; "order" is nullable here.(‹ßö—
+c
+java:S3824J"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(ÇÆ˜©ÿÿÿÿÿ
+N	java:S106O"9Replace this use of System.out or System.err by a logger.(ÜÏã”

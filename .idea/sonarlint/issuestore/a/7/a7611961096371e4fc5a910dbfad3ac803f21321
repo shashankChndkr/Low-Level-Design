@@ -1,0 +1,8 @@
+
+`	java:S112H"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+ˆ
+java:S1319T"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(à´Ò”øÿÿÿÿ
+ˆ
+java:S1319]"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(‘ùˆ¦ÿÿÿÿÿ
+N	java:S106@"9Replace this use of System.out or System.err by a logger.(ê˜¼ü
+S	java:S106e"9Replace this use of System.out or System.err by a logger.(ÉÈ³ßüÿÿÿÿ

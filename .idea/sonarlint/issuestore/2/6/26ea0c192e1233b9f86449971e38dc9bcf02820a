@@ -1,0 +1,7 @@
+
+h
+java:S1192"MDefine a constant instead of duplicating this literal "stockSymbol-" 3 times.(ÍîË÷ÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ü²×¡øÿÿÿÿ
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(ùÍåò
+N	java:S106'"9Replace this use of System.out or System.err by a logger.(š€É¼
+V	java:S1254"<This block of commented-out lines of code should be removed.(‡•–ıÿÿÿÿ

@@ -1,0 +1,6 @@
+
+w
+java:S1488:"\Immediately return this expression instead of assigning it to the temporary variable "room".(„™§­ýÿÿÿÿ
+T
+java:S2168("9Remove this dangerous instance of double-checked locking.(£¥¿Äúÿÿÿÿ
+S	java:S106N"9Replace this use of System.out or System.err by a logger.(’©ê±ùÿÿÿÿ
