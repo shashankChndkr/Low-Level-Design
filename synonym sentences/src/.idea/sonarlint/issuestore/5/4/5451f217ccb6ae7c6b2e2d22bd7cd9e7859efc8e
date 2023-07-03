@@ -1,0 +1,8 @@
+
+s
+java:S1450"]Remove the "uniqueSynonyms" field and declare it as a local variable in the relevant methods.(é²è²
+J
+java:S2864v"4Iterate over the "entrySet" instead of the "keySet".(Š‡ˆç
+\
+java:S1612“"@Replace this lambda with method reference 'System.out::println'.(™œâ½ùÿÿÿÿ
+T	java:S106“"9Replace this use of System.out or System.err by a logger.(™œâ½ùÿÿÿÿ

@@ -40,11 +40,11 @@ public class SynonymPairGraph implements Graph {
         }
         lock.lock();
         try {
-            if (!synonymGraph.contains(edge1)) {
+            if (!synonymGraph.containsKey(edge1)) {
                 synonymGraph.put(edge1, new HashSet<>());
             }
 
-            if (!synonymGraph.contains(edge2)) {
+            if (!synonymGraph.containsKey(edge2)) {
                 synonymGraph.put(edge2, new HashSet<>());
             }
 
