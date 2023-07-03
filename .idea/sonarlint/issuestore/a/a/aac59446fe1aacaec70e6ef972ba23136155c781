@@ -1,17 +1,0 @@
-
-`	java:S112:"FDefine and throw a dedicated exception instead of using a generic one.(ÿ³œ²ûÿÿÿÿ
-[	java:S112e"FDefine and throw a dedicated exception instead of using a generic one.(éßµò
-‚
-java:S1319R"mThe return type of this method should be an interface such as "Set" rather than the implementation "HashSet".(ñ¾Ğ/
-ƒ
-java:S1319V"mThe return type of this method should be an interface such as "Set" rather than the implementation "HashSet".(‚Œ
-¯
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(îä¸
-`
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(êşéïüÿÿÿÿ
-ˆ
-java:S6485"mReplace this call to the constructor with the better suited static method HashSet.newHashSet(int numMappings)(äå«ûÿÿÿÿ
-ˆ
-java:S6485"mReplace this call to the constructor with the better suited static method HashSet.newHashSet(int numMappings)(ÂÑø¡ûÿÿÿÿ
-T
-java:S2168'"9Remove this dangerous instance of double-checked locking.(å×ø¡ùÿÿÿÿ

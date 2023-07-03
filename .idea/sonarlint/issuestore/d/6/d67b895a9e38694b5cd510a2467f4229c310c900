@@ -1,8 +1,0 @@
-
-u	java:S116"[Rename this field "DEFAULT_CAPACITY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û„ƒ¬þÿÿÿÿ
-<
-java:S1170"!Make this final field static too.(û„ƒ¬þÿÿÿÿ
-a
-java:S1612#"KReplace this lambda with method reference 'this::produceErrorQueueMessage'.(¤¡éÀ
-S	java:S106@"9Replace this use of System.out or System.err by a logger.(þ¯§Ìøÿÿÿÿ
-N	java:S106E"9Replace this use of System.out or System.err by a logger.(ÊÖøÍ
